@@ -6,12 +6,9 @@ body {
 }
 
 h1 {
-    font-family: SimSun, serif;
-    font-size: 22px;
-    margin-top: 40px;
-    color: black;
     text-align: center;
-    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body::before {
@@ -51,6 +48,22 @@ body::before {
 .next a:hover {
     color: red;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 搜索栏样式 */
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s ease;
 }
 
 /* 卡片容器样式 */

@@ -18,13 +18,10 @@ body::before {
     z-index: 10;
 }
 
-/* 标题样式 */
 h1 {
-    font-family: "SimSun", "宋体", serif;
-    font-size: 30px;
-    color: black;
     text-align: center;
-    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
@@ -131,4 +128,23 @@ button+button {
     text-align: center;
     margin-bottom: 50px;
     left: 300px;
+}
+
+.spot-title {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #27AE60;
+    text-align: center;
+    margin: 25px 0;
+    padding: 8px 15px;
+    background-color: #E8F8F5;
+    border-radius: 12px;
+    border: 2px solid #27AE60;
+}
+
+.spot-title:hover {
+    color: #1ABC9C;
+    background-color: #D5F5E3;
+    cursor: pointer;
 }

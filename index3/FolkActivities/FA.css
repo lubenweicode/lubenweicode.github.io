@@ -54,28 +54,43 @@ h1 {
     display: flex;
     align-items: flex-start;
     gap: 20px;
+
 }
 
 .activity .content {
-    flex: 1;
     margin-left: 100px;
+    width: 1000px;
 }
 
 .activity .content p {
-    font-size: 17px;
-    display: inline-block;
-    transition: transform 0.2s ease;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    width: 100%;
+    text-indent: 2em;
 }
 
 .activity .content p:hover {
-    transform: scale(1.2);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.activity .activity-image {
+    width: 500px;
+    padding-right: 100px;
 }
 
 .activity .activity-image img {
     display: flex;
-    width: 600px;
-    height: 550px;
-    margin-right: 80px;
+    width: 500px;
+    height: 300px;
     display: inline-block;
 }
 

@@ -6,12 +6,9 @@ body {
 }
 
 h1 {
-    font-family: SimSun, serif;
-    font-size: 22px;
-    margin-top: 40px;
-    color: black;
     text-align: center;
-    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body::before {
